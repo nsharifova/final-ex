@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "..\\..\\colorfull slider"
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5504
+	}
+}

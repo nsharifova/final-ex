@@ -1,0 +1,186 @@
+#footer{
+    background-image: url(https://quattro.true-emotions.studio/wp-content/uploads/2021/04/bg-3.jpg?id=2983);
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    position: relative;
+    box-sizing: border-box;
+    // width: 1519px;
+      .dark {
+        padding: 5rem 0;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.801);
+      }
+      .footText{
+  h2{
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+  }
+      }
+      .footUl{
+        margin-top: 50px;
+        margin-bottom: 35px;
+        ul{
+          li{
+            font-size: 17px;
+            font-weight: 400;
+            color: rgb(187, 187, 187);
+          }
+        }
+      }
+      .footIcon{
+        i{
+          background: #111111;
+          width: 45px;
+          margin: 0 5px;
+      height: 45px;
+      display: grid;
+      align-items: center;
+      color: gray;
+      justify-content: center;
+      border-radius: 150px;
+      transition: color .33s, background-color .33s;
+      margin-top: 10px;
+        }
+      }
+      .ulBox{
+        ul{
+      li{
+        padding: 0 0 12px;
+        margin-bottom: 5px;
+    a{
+    font-size: 17px;
+    font-weight: 400;
+    color: rgb(187, 187, 187);
+    transition: 0.5s ease;
+    &:hover{
+      color: red;
+      text-decoration: none;
+    }
+    }
+        }
+        }
+      }
+      .febAll{
+        margin-top: 50px;
+        margin-bottom: 35px;
+        .febBox{
+          margin-bottom: 25px;
+          a{
+            transition: 0.5s ease;
+            &:hover{
+              color: red;
+              text-decoration: none;
+            }
+          }
+          span{
+            a{
+              font-size: 14px;
+              line-height: 26px;
+              display: inline-block;
+              color: white;
+              text-decoration: none;
+            }
+          }
+          a{
+            color: #bbbbbb;
+            text-decoration: underline;
+            font-weight: 400;
+            display: block;
+            line-height: 24px;
+            position: relative;
+          }
+        }
+      }
+      .footInput{
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 35px;
+        input{
+          margin-bottom: 1rem;
+          width: 100%;
+      height: 35px;
+      background: none;
+      border: none;
+      border-bottom: 1px solid #3e3e3e;
+      color: #979797;
+      outline: none;
+        }
+        textarea{
+          height: 110px;
+          resize: none;
+          padding: 5px 0;
+          color: #979797;
+          width: 100%;
+          outline: none;
+          background: none;
+      border: none;
+      border-bottom: 1px solid #3e3e3e;
+        }
+      }
+      .footButton{
+        button{
+          padding: 0.75em 2.5em;
+          border-radius: 5px;
+          text-align: center;
+          display: inline-block;
+          border: none;
+          outline: none;
+          background-color: #F93736;
+          color: #fff;
+          transition: color .33s, background .33s, box-shadow .33s;
+          font-weight: 600;
+          font-size: 16px;
+          &:hover{
+            box-shadow: 0px 5px 35px 5px rgba(255,1,0,0.55);
+          }
+        }
+        .pBox{
+          transition: 0.3s ease;
+          display: none;
+          margin: 2em 0.5em 1em;
+          border: 2px solid yellow;
+          // border-color: #ffb900;
+          p{
+            color: white;
+            padding: 0.2em 1em;
+          }
+        }
+      }
+  }
+  
+  ////////////////////////FOOTER END//////////////////////////////////////////////////////////////////////
+  #end{
+    background-color: #000000 ;
+  padding: 50px 0;
+  color: white;
+  .endText{
+    p{
+      span{
+        &.next{
+          color: #bbbbbb;
+        }
+      }
+    }
+  }
+  .endUl{
+    ul{
+      li{
+        margin-left: 15px;
+        a{
+      color: #bbbbbb;
+      transition: 0.5s ease;
+      text-decoration: underline;
+      &:hover{
+        text-decoration: none;
+        color: red;
+      }
+        }
+      }
+    }
+  }
+  }
