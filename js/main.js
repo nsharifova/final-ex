@@ -61,8 +61,6 @@ $('.my-slider').slick({
     }
   ]
   });
-
-
 ///////////////////////////////QUESTION/////////////////////////////////////////////////////////////////
 
 
@@ -76,15 +74,11 @@ $('.my-slider').slick({
 
 })
 
-
-
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
 let slider=document.querySelectorAll(".slider");
 
 $('.slider').slick({
-  dots:false,
-  // prevArrow: false,
-  // nextArrow: false,
+  dots: false,
   infinite: true,
   slidesToShow: 3,
   slidesToScroll: 1,
@@ -107,13 +101,13 @@ $('.slider').slick({
         slidesToScroll: 2
       }
     },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    },
+    // {
+    //   breakpoint: 480,
+    //   settings: {
+    //     slidesToShow: 1,
+    //     slidesToScroll: 1
+    //   }
+    // },
     {
       breakpoint: 375,
       settings: {
@@ -220,12 +214,7 @@ $('.box2').on( 'click', 'li', function() {
 });
 /////////////////////////////////////////////////////////////////////
 		
-// let button=document.querySelector(".footButton button")
-// let pBox=document.querySelector(".pBox")
-// let input=document.querySelectorAll(".footinput input")
-// // button.onclick=function(){
-// //   pBox.style.display="block";
-// // }
+
 
 $(".pBox").ready(function(){
   $(".footButton button").click(function(){
